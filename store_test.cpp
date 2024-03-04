@@ -5,11 +5,14 @@
  * @date 19 Jan 2019
  */
 
+#include "customer.h"
+// #include "movie.h"
+#include "store.h"
+#include <cassert>
+#include <fstream>
 #include <iostream>
 #include <map>
 #include <sstream>
-#include <fstream>
-#include <cassert>
 
 using namespace std;
 
@@ -39,8 +42,13 @@ void testStore2() {
 }
 
 void testStoreFinal() {
-  cout << "=====================================" << endl;
   cout << "Start testStoreFinal" << endl;
+  Store store = Store();
+  store.readMoviesFromFile("data4movies.txt");
+  cout << "=====================================" << endl;
+  store.readCustomersFromFile("data4customers.txt");
+  cout << "=====================================" << endl;
+  store.readCommandsFromFile("data4commands.txt");
   cout << "End testStoreFinal" << endl;
   cout << "=====================================" << endl;
 }

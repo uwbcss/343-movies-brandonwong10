@@ -1,0 +1,268 @@
+Mon Mar  4 19:18:52 UTC 2024
+Linux LinuxMachine 6.3.13-linuxkit #1 SMP PREEMPT Thu Sep  7 07:48:47 UTC 2023 aarch64 aarch64 aarch64 GNU/Linux
+uid=1000(cssuwbstudent) gid=1000(cssuwbstudent) groups=1000(cssuwbstudent),10(wheel)
+=====================================================
+1. If the section below is empty, the program compiles 
+   without warnings with -Wall -Wextra flags
+=====================================================
+=====================================================
+2. If the section below is empty or has the expected output 
+    the program puns and produces correct output
+=====================================================
+Start testStore1
+End testStore1
+Start testStore2
+End testStore2
+Start testStoreFinal
+Don't know how to create Z
+Don't know how to create Z
+=====================================
+=====================================
+Annie Hall, 1977, Woody Allen (10) - F
+
+Fargo, 1996, Joel Coen (10) - F
+
+National Lampoon's Animal House, 1978, John Landis (10) - F
+
+Pirates of the Caribbean, 2000, Different Years (10) - F
+
+Pirates of the Caribbean, 2003, Gore Verbinski (10) - F
+
+Sleepless in Seattle, 1993, Nora Ephron (10) - F
+
+When Harry Met Sally, 1989, Rob Reiner (10) - F
+
+You've Got Mail, 1998, Nora Ephron (10) - F
+
+
+Barry Levinson, Good Morning Vietnam, 1988 (10) - D
+
+Barry Levinson, Same Director Good Morning Vietnam, 1988 (10) - D
+
+Clint Eastwood, Unforgiven, 1992 (10) - D
+
+Gus Van Sant, Good Will Hunting, 2000 (10) - D
+
+Jonathan Demme, Silence of the Lambs, 1991 (10) - D
+
+Nancy Savoca, Dogfight, 1991 (10) - D
+
+Phillippe De Broca, King of Hearts, 1967 (10) - D
+
+Steven Spielberg, Schindler's List, 1993 (10) - D
+
+
+1938 9, Cary Grant, George Cukor, Holiday (10) - C
+
+1938 9, Katherine Hepburn, George Cukor, Holiday (10) - C
+
+1939 2, Clark Gable, Victor Fleming, Gone With the Wind (10) - C
+
+1939 2, Vivien Leigh, Victor Fleming, Gone With the Wind (10) - C
+
+1939 7, Judy Garland, Victor Fleming, The Wizard of Oz (10) - C
+
+1940 5, Cary Grant, George Cukor, The Philadelphia Story (10) - C
+
+1940 5, Katherine Hepburn, George Cukor, The Philadelphia Story (10) - C
+
+1941 10, Humphrey Bogart, John Huston, The Maltese Falcon (10) - C
+
+1942 8, Humphrey Bogart, Michael Curtiz, Casablanca (10) - C
+
+1942 8, Ingrid Bergman, Michael Curtiz, Casablanca (10) - C
+
+1946 11, Donna Reed, Frank Capra, It's a Wonderful Life (10) - C
+
+1946 11, James Steward, Frank Capra, It's a Wonderful Life (10) - C
+
+1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (10) - C
+
+1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (10) - C
+
+
+History for 1000 Mouse Minnie
+No history for Mouse Minnie
+History for 5000 Frog Freddie
+No history for Frog Freddie
+History for 8000 Wacky Wally
+No history for Wacky Wally
+Error: Movie not found with type: Z and Data: 2 1971 Malcolm McDowell
+Unknown command: X
+Don't know how to create Z
+Error: Customer with ID 1234 not found.
+Error: Movie not found with type: F and Data: Bogus Title, 2001
+Unknown mediaType Z
+Lizard Larrycould NOT borrow Harold and Maude, out of stock.
+Witch Wickedcould NOT borrow Harold and Maude, out of stock.
+Spider Sammycould NOT borrow Harold and Maude, out of stock.
+Error: Movie not found with type: D and Data: Steven Spielberg, Bogus Title,
+Annie Hall, 1977, Woody Allen (9) - F
+
+Fargo, 1996, Joel Coen (9) - F
+
+National Lampoon's Animal House, 1978, John Landis (9) - F
+
+Pirates of the Caribbean, 2000, Different Years (10) - F
+
+Pirates of the Caribbean, 2003, Gore Verbinski (10) - F
+
+Sleepless in Seattle, 1993, Nora Ephron (9) - F
+
+When Harry Met Sally, 1989, Rob Reiner (9) - F
+
+You've Got Mail, 1998, Nora Ephron (9) - F
+
+
+Barry Levinson, Good Morning Vietnam, 1988 (9) - D
+
+Barry Levinson, Same Director Good Morning Vietnam, 1988 (10) - D
+
+Clint Eastwood, Unforgiven, 1992 (9) - D
+
+Gus Van Sant, Good Will Hunting, 2000 (9) - D
+
+Jonathan Demme, Silence of the Lambs, 1991 (9) - D
+
+Nancy Savoca, Dogfight, 1991 (8) - D
+
+Phillippe De Broca, King of Hearts, 1967 (9) - D
+
+Steven Spielberg, Schindler's List, 1993 (9) - D
+
+
+1938 9, Cary Grant, George Cukor, Holiday (9) - C
+
+1938 9, Katherine Hepburn, George Cukor, Holiday (10) - C
+
+1939 2, Clark Gable, Victor Fleming, Gone With the Wind (10) - C
+
+1939 2, Vivien Leigh, Victor Fleming, Gone With the Wind (10) - C
+
+1939 7, Judy Garland, Victor Fleming, The Wizard of Oz (10) - C
+
+1940 5, Cary Grant, George Cukor, The Philadelphia Story (9) - C
+
+1940 5, Katherine Hepburn, George Cukor, The Philadelphia Story (9) - C
+
+1941 10, Humphrey Bogart, John Huston, The Maltese Falcon (9) - C
+
+1942 8, Humphrey Bogart, Michael Curtiz, Casablanca (10) - C
+
+1942 8, Ingrid Bergman, Michael Curtiz, Casablanca (10) - C
+
+1946 11, Donna Reed, Frank Capra, It's a Wonderful Life (10) - C
+
+1946 11, James Steward, Frank Capra, It's a Wonderful Life (10) - C
+
+1971 2, Malcolm McDowell, Stanley Kubrick, A Clockwork Orange (9) - C
+
+1971 3, Ruth Gordon, Hal Ashby, Harold and Maude (0) - C
+
+
+History for 1000 Mouse Minnie
+B Barry Levinson, Good Morning Vietnam,
+B 5 1940 Katherine Hepburn
+B Gus Van Sant, Good Will Hunting,
+B 5 1940 Cary Grant
+B 3 1971 Ruth Gordon
+History for 1111 Mouse Mickey
+B 2 1971 Malcolm McDowell
+B 3 1971 Ruth Gordon
+B 10 1941 Humphrey Bogart
+B 9 1938 Cary Grant
+History for 5000 Frog Freddie
+B 3 1971 Ruth Gordon
+R 3 1971 Ruth Gordon
+B 3 1971 Ruth Gordon
+R 3 1971 Ruth Gordon
+B 3 1971 Ruth Gordon
+R 3 1971 Ruth Gordon
+B 3 1971 Ruth Gordon
+History for 8000 Wacky Wally
+B You've Got Mail, 1998
+R You've Got Mail, 1998
+B 3 1971 Ruth Gordon
+B 3 1971 Ruth Gordon
+B National Lampoon's Animal House, 1978
+History for 8888 Pig Porky
+B Annie Hall, 1977
+B When Harry Met Sally, 1989
+B Jonathan Demme, Silence of the Lambs,
+B Nancy Savoca, Dogfight,
+B 3 1971 Ruth Gordon
+End testStoreFinal
+=====================================
+Done.
+=====================================================
+3. If the section below is empty, then there are no clang-tidy warnings 
+   (ignore warnings from system headers, such as "13554 warnings generated.")
+=====================================================
+17944 warnings generated.
+35921 warnings generated.
+53500 warnings generated.
+71071 warnings generated.
+88384 warnings generated.
+101841 warnings generated.
+119412 warnings generated.
+137407 warnings generated.
+155358 warnings generated.
+166728 warnings generated.
+184041 warnings generated.
+201992 warnings generated.
+221001 warnings generated.
+239989 warnings generated.
+Suppressed 239989 warnings (239988 in non-user code, 1 with check filters).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+=====================================================
+4. If the section below is empty, clang-format does not find any formatting issues
+   You can fix formatting errors using "clang-format -i <filename>" on command line
+=====================================================
+Running clang-format on ./HashTable.cpp
+Running clang-format on ./borrow.cpp
+Running clang-format on ./classics.cpp
+Running clang-format on ./comedy.cpp
+Running clang-format on ./command.cpp
+Running clang-format on ./customer.cpp
+Running clang-format on ./dramas.cpp
+Running clang-format on ./history.cpp
+Running clang-format on ./inventory.cpp
+Running clang-format on ./main.cpp
+Running clang-format on ./movie.cpp
+Running clang-format on ./return.cpp
+Running clang-format on ./store.cpp
+Running clang-format on ./store_test.cpp
+=====================================================
+5. If there are any memory leaks, it should be in the output below
+=====================================================
+=====================================================
+6. Using valgrind to check for memory leaks
+   Check for "definitely lost" in the output below
+=====================================================
+==14432== Memcheck, a memory error detector
+==14432== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==14432== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==14432== Command: ./a.out
+==14432== Parent PID: 13858
+==14432== 
+==14432== 
+==14432== HEAP SUMMARY:
+==14432==     in use at exit: 1,242 bytes in 24 blocks
+==14432==   total heap usage: 4,630 allocs, 4,606 frees, 289,426 bytes allocated
+==14432== 
+==14432== LEAK SUMMARY:
+==14432==    definitely lost: 1,088 bytes in 17 blocks
+==14432==    indirectly lost: 154 bytes in 7 blocks
+==14432==      possibly lost: 0 bytes in 0 blocks
+==14432==    still reachable: 0 bytes in 0 blocks
+==14432==         suppressed: 0 bytes in 0 blocks
+==14432== Rerun with --leak-check=full to see details of leaked memory
+==14432== 
+==14432== For lists of detected and suppressed errors, rerun with: -s
+==14432== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+Mon Mar  4 19:19:26 UTC 2024
+=====================================================
+To create an output.txt file with all the output from this script
+Run the below command
+      ./create-output.sh > output.txt 2>&1 
+=====================================================
