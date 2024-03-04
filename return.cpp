@@ -24,12 +24,11 @@ void Return::execute(Store &store) {
   Movie *movie = store.getMovies().findMovie(movieType, data);
   if (movie == nullptr) {
     std::cout << "Error: Movie not found with type: " << movieType
-              << " and Data: " << data << std::endl;
+              << " and Data: " << data << endl;
     return;
   }
   if (movie->getStock() <= 0) {
-    cout << "Error: Movie " << movie->getTitle() << " is out of stock."
-         << std::endl;
+    cout << "Error: Movie " << movie->getTitle() << " is out of stock." << endl;
     return;
   }
   store.returnMovie(customerID, movie, this);

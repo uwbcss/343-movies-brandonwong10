@@ -29,14 +29,12 @@ void Borrow::execute(Store &store) {
               << " and Data: " << data << endl;
     return;
   }
-  // Check if the movie is available for borrowing
   if (movie->getStock() <= 0) {
     cout << customer->firstNameGetter() << " " << customer->lastNameGetter()
          << "could NOT borrow " << movie->getTitle() << ", out of stock."
          << endl;
     return;
   }
-  // Perform borrowing action
   store.borrowMovie(customerID, movie, this);
 }
 

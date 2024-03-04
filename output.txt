@@ -1,4 +1,4 @@
-Mon Mar  4 19:18:52 UTC 2024
+Mon Mar  4 22:23:11 UTC 2024
 Linux LinuxMachine 6.3.13-linuxkit #1 SMP PREEMPT Thu Sep  7 07:48:47 UTC 2023 aarch64 aarch64 aarch64 GNU/Linux
 uid=1000(cssuwbstudent) gid=1000(cssuwbstudent) groups=1000(cssuwbstudent),10(wheel)
 =====================================================
@@ -199,20 +199,20 @@ Done.
    (ignore warnings from system headers, such as "13554 warnings generated.")
 =====================================================
 17944 warnings generated.
-35921 warnings generated.
-53500 warnings generated.
-71071 warnings generated.
-88384 warnings generated.
-101841 warnings generated.
-119412 warnings generated.
-137407 warnings generated.
-155358 warnings generated.
-166728 warnings generated.
-184041 warnings generated.
-201992 warnings generated.
-221001 warnings generated.
-239989 warnings generated.
-Suppressed 239989 warnings (239988 in non-user code, 1 with check filters).
+35920 warnings generated.
+53499 warnings generated.
+71070 warnings generated.
+88383 warnings generated.
+101840 warnings generated.
+119411 warnings generated.
+137406 warnings generated.
+155356 warnings generated.
+166726 warnings generated.
+184039 warnings generated.
+201989 warnings generated.
+220998 warnings generated.
+239986 warnings generated.
+Suppressed 239986 warnings (239985 in non-user code, 1 with check filters).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
 =====================================================
 4. If the section below is empty, clang-format does not find any formatting issues
@@ -239,28 +239,28 @@ Running clang-format on ./store_test.cpp
 6. Using valgrind to check for memory leaks
    Check for "definitely lost" in the output below
 =====================================================
-==14432== Memcheck, a memory error detector
-==14432== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==14432== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
-==14432== Command: ./a.out
-==14432== Parent PID: 13858
-==14432== 
-==14432== 
-==14432== HEAP SUMMARY:
-==14432==     in use at exit: 1,242 bytes in 24 blocks
-==14432==   total heap usage: 4,630 allocs, 4,606 frees, 289,426 bytes allocated
-==14432== 
-==14432== LEAK SUMMARY:
-==14432==    definitely lost: 1,088 bytes in 17 blocks
-==14432==    indirectly lost: 154 bytes in 7 blocks
-==14432==      possibly lost: 0 bytes in 0 blocks
-==14432==    still reachable: 0 bytes in 0 blocks
-==14432==         suppressed: 0 bytes in 0 blocks
-==14432== Rerun with --leak-check=full to see details of leaked memory
-==14432== 
-==14432== For lists of detected and suppressed errors, rerun with: -s
-==14432== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-Mon Mar  4 19:19:26 UTC 2024
+==98545== Memcheck, a memory error detector
+==98545== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==98545== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==98545== Command: ./a.out
+==98545== Parent PID: 98005
+==98545== 
+==98545== 
+==98545== HEAP SUMMARY:
+==98545==     in use at exit: 1,242 bytes in 24 blocks
+==98545==   total heap usage: 4,630 allocs, 4,606 frees, 289,426 bytes allocated
+==98545== 
+==98545== LEAK SUMMARY:
+==98545==    definitely lost: 1,088 bytes in 17 blocks
+==98545==    indirectly lost: 154 bytes in 7 blocks
+==98545==      possibly lost: 0 bytes in 0 blocks
+==98545==    still reachable: 0 bytes in 0 blocks
+==98545==         suppressed: 0 bytes in 0 blocks
+==98545== Rerun with --leak-check=full to see details of leaked memory
+==98545== 
+==98545== For lists of detected and suppressed errors, rerun with: -s
+==98545== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+Mon Mar  4 22:23:42 UTC 2024
 =====================================================
 To create an output.txt file with all the output from this script
 Run the below command

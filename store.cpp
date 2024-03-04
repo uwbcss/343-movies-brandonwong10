@@ -18,6 +18,11 @@ Store::~Store() {
   customers.clear();
   for (auto &pair : transactions) {
     for (auto *command : pair.second) {
+      if (command == nullptr) {
+        cout << "We got nullptr in command*\n";
+      }
+      cout << "Deleting: ";
+      command->display();
       delete command;
     }
     pair.second.clear();
@@ -111,8 +116,6 @@ void Store::readCommandsFromFile(string commandsFile) {
         CommandFactory::create(type, customerId, mediaType, movieType, data);
     if (command != nullptr) {
       command->execute(*this);
-    } else {
-      delete command;
     }
   }
 }

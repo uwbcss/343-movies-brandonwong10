@@ -13,7 +13,6 @@ protected:
   HashTable movies;
   unordered_map<int, Customer *> customers;
   unordered_map<Customer *, vector<Command *>> transactions;
-  vector<Command *> commands;
 
 public:
   // Constructor for the Store class.

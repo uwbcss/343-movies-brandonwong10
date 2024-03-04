@@ -36,3 +36,9 @@ Command::Command(const char &type) : type(type) {}
 
 // Getter for type
 char Command::typeGetter() const { return type; }
+
+CommandFactory::~CommandFactory() {
+  for (auto &p : getMap()) {
+    delete p.second;
+  }
+}
