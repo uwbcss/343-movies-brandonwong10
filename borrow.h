@@ -27,6 +27,9 @@ public:
   // Executes the borrow
   void execute(Store &store) override;
 
+  // Getter for data
+  string getData();
+
   // Displays Data
   void display() const override;
 };

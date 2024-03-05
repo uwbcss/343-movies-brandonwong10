@@ -20,7 +20,7 @@ public:
             string data)
       : Command('I'), customerID(customerID), mediaType(mediaType),
         movieType(movieType), data(data) {}
-
+        
   // Method to execute the Inventory command
   void execute(Store &store) override;
 

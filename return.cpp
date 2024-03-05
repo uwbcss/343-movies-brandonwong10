@@ -33,9 +33,11 @@ void Return::execute(Store &store) {
   }
   store.returnMovie(customerID, movie, this);
 }
-
 // Displays the data associated with the Return command.
-void Return::display() const { cout << data << endl; }
+void Return::display() const { cout << customerID << ' ' << data << endl; }
+
+// Getter for data
+string Return::getData() { return data; }
 
 // Creating the object registers the type at run time.
 ReturnFactory anonymousReturnFactory;

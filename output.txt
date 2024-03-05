@@ -1,4 +1,4 @@
-Mon Mar  4 22:23:11 UTC 2024
+Tue Mar  5 06:12:56 UTC 2024
 Linux LinuxMachine 6.3.13-linuxkit #1 SMP PREEMPT Thu Sep  7 07:48:47 UTC 2023 aarch64 aarch64 aarch64 GNU/Linux
 uid=1000(cssuwbstudent) gid=1000(cssuwbstudent) groups=1000(cssuwbstudent),10(wheel)
 =====================================================
@@ -161,36 +161,36 @@ Steven Spielberg, Schindler's List, 1993 (9) - D
 
 
 History for 1000 Mouse Minnie
-B Barry Levinson, Good Morning Vietnam,
-B 5 1940 Katherine Hepburn
-B Gus Van Sant, Good Will Hunting,
-B 5 1940 Cary Grant
-B 3 1971 Ruth Gordon
+B 1000 Barry Levinson, Good Morning Vietnam,
+B 1000 5 1940 Katherine Hepburn
+B 1000 Gus Van Sant, Good Will Hunting,
+B 1000 5 1940 Cary Grant
+B 1000 3 1971 Ruth Gordon
 History for 1111 Mouse Mickey
-B 2 1971 Malcolm McDowell
-B 3 1971 Ruth Gordon
-B 10 1941 Humphrey Bogart
-B 9 1938 Cary Grant
+B 1111 2 1971 Malcolm McDowell
+B 1111 3 1971 Ruth Gordon
+B 1111 10 1941 Humphrey Bogart
+B 1111 9 1938 Cary Grant
 History for 5000 Frog Freddie
-B 3 1971 Ruth Gordon
-R 3 1971 Ruth Gordon
-B 3 1971 Ruth Gordon
-R 3 1971 Ruth Gordon
-B 3 1971 Ruth Gordon
-R 3 1971 Ruth Gordon
-B 3 1971 Ruth Gordon
+B 5000 3 1971 Ruth Gordon
+R 5000 3 1971 Ruth Gordon
+B 5000 3 1971 Ruth Gordon
+R 5000 3 1971 Ruth Gordon
+B 5000 3 1971 Ruth Gordon
+R 5000 3 1971 Ruth Gordon
+B 5000 3 1971 Ruth Gordon
 History for 8000 Wacky Wally
-B You've Got Mail, 1998
-R You've Got Mail, 1998
-B 3 1971 Ruth Gordon
-B 3 1971 Ruth Gordon
-B National Lampoon's Animal House, 1978
+B 8000 You've Got Mail, 1998
+R 8000 You've Got Mail, 1998
+B 8000 3 1971 Ruth Gordon
+B 8000 3 1971 Ruth Gordon
+B 8000 National Lampoon's Animal House, 1978
 History for 8888 Pig Porky
-B Annie Hall, 1977
-B When Harry Met Sally, 1989
-B Jonathan Demme, Silence of the Lambs,
-B Nancy Savoca, Dogfight,
-B 3 1971 Ruth Gordon
+B 8888 Annie Hall, 1977
+B 8888 When Harry Met Sally, 1989
+B 8888 Jonathan Demme, Silence of the Lambs,
+B 8888 Nancy Savoca, Dogfight,
+B 8888 3 1971 Ruth Gordon
 End testStoreFinal
 =====================================
 Done.
@@ -210,9 +210,9 @@ Done.
 166726 warnings generated.
 184039 warnings generated.
 201989 warnings generated.
-220998 warnings generated.
-239986 warnings generated.
-Suppressed 239986 warnings (239985 in non-user code, 1 with check filters).
+220999 warnings generated.
+239987 warnings generated.
+Suppressed 239987 warnings (239986 in non-user code, 1 with check filters).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
 =====================================================
 4. If the section below is empty, clang-format does not find any formatting issues
@@ -239,28 +239,22 @@ Running clang-format on ./store_test.cpp
 6. Using valgrind to check for memory leaks
    Check for "definitely lost" in the output below
 =====================================================
-==98545== Memcheck, a memory error detector
-==98545== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==98545== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
-==98545== Command: ./a.out
-==98545== Parent PID: 98005
-==98545== 
-==98545== 
-==98545== HEAP SUMMARY:
-==98545==     in use at exit: 1,242 bytes in 24 blocks
-==98545==   total heap usage: 4,630 allocs, 4,606 frees, 289,426 bytes allocated
-==98545== 
-==98545== LEAK SUMMARY:
-==98545==    definitely lost: 1,088 bytes in 17 blocks
-==98545==    indirectly lost: 154 bytes in 7 blocks
-==98545==      possibly lost: 0 bytes in 0 blocks
-==98545==    still reachable: 0 bytes in 0 blocks
-==98545==         suppressed: 0 bytes in 0 blocks
-==98545== Rerun with --leak-check=full to see details of leaked memory
-==98545== 
-==98545== For lists of detected and suppressed errors, rerun with: -s
-==98545== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-Mon Mar  4 22:23:42 UTC 2024
+==89177== Memcheck, a memory error detector
+==89177== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==89177== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==89177== Command: ./a.out
+==89177== Parent PID: 88611
+==89177== 
+==89177== 
+==89177== HEAP SUMMARY:
+==89177==     in use at exit: 0 bytes in 0 blocks
+==89177==   total heap usage: 4,640 allocs, 4,640 frees, 289,632 bytes allocated
+==89177== 
+==89177== All heap blocks were freed -- no leaks are possible
+==89177== 
+==89177== For lists of detected and suppressed errors, rerun with: -s
+==89177== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+Tue Mar  5 06:13:30 UTC 2024
 =====================================================
 To create an output.txt file with all the output from this script
 Run the below command

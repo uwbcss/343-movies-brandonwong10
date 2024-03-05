@@ -18,6 +18,7 @@ Command *HistoryFactory::makeCommand(int customerID, const char &mediaType,
 void History::execute(Store &store) {
   if (store.getCustomer().count(customerID) == 0) {
     cout << "Customer " << customerID << " does not exist" << endl;
+    delete this;
     return;
   }
   Customer *customer = store.getCustomer()[customerID];
@@ -26,6 +27,7 @@ void History::execute(Store &store) {
   if (store.getTransactions().count(customer) == 0) {
     cout << "No history for " << customer->firstNameGetter() << " "
          << customer->lastNameGetter() << endl;
+    delete this;
     return;
   }
   vector<Command *> transactions = store.getTransactions()[customer];
@@ -33,6 +35,7 @@ void History::execute(Store &store) {
     cout << transaction->typeGetter() << " ";
     transaction->display();
   }
+  delete this;
 }
 
 // Method to display information about a History command

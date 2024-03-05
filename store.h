@@ -1,6 +1,7 @@
 #include "HashTable.h"
 #include "command.h"
 #include "customer.h"
+#include "return.h"
 #include <string>
 #include <unordered_map>
 #ifndef STORE_H
@@ -41,7 +42,7 @@ public:
   void borrowMovie(int customerID, Movie *movie, Command *command);
 
   // Handles the return of a movie by a customer.
-  void returnMovie(int customerID, Movie *movie, Command *command);
+  void returnMovie(int customerID, Movie *movie, Return *command);
 
   // Returns a reference to the store's movie inventory.
   HashTable &getMovies();

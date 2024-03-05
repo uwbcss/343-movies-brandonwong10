@@ -16,7 +16,10 @@ Command *InventoryFactory::makeCommand(int customerID, const char &mediaType,
 }
 
 // Method to execute the Inventory command
-void Inventory::execute(Store &store) { store.getMovies().printInventory(); }
+void Inventory::execute(Store &store) {
+  store.getMovies().printInventory();
+  delete this;
+}
 
 // Method to display information about an Inventory command
 void Inventory::display() const { cout << "Type: " << type << endl; }

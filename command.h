@@ -14,7 +14,6 @@ class Command;
 
 class CommandFactory {
 public:
-  virtual ~CommandFactory();
   // Makes Command objects
   virtual Command *makeCommand(int customerID, const char &mediaType,
                                const char &movieType, string data) const = 0;

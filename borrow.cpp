@@ -19,6 +19,7 @@ void Borrow::execute(Store &store) {
   if (!store.customerExists(customerID)) {
     std::cout << "Error: Customer with ID " << customerID << " not found."
               << std::endl;
+    delete this;
     return;
   }
   Customer *customer = store.getCustomer()[customerID];
@@ -27,19 +28,24 @@ void Borrow::execute(Store &store) {
   if (movie == nullptr) {
     std::cout << "Error: Movie not found with type: " << movieType
               << " and Data: " << data << endl;
+    delete this;
     return;
   }
   if (movie->getStock() <= 0) {
     cout << customer->firstNameGetter() << " " << customer->lastNameGetter()
          << "could NOT borrow " << movie->getTitle() << ", out of stock."
          << endl;
+    delete this;
     return;
   }
   store.borrowMovie(customerID, movie, this);
 }
 
+// Getter for data
+string Borrow::getData() { return data; }
+
 // Displays data
-void Borrow::display() const { cout << data << endl; }
+void Borrow::display() const { cout << customerID << ' ' << data << endl; }
 
 // creating the object registers the type at run time
 BorrowFactory anonymousBorrowFactory;

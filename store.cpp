@@ -1,4 +1,5 @@
 #include "store.h"
+#include "borrow.h"
 #include <cassert>
 #include <fstream>
 #include <iostream>
@@ -18,11 +19,6 @@ Store::~Store() {
   customers.clear();
   for (auto &pair : transactions) {
     for (auto *command : pair.second) {
-      if (command == nullptr) {
-        cout << "We got nullptr in command*\n";
-      }
-      cout << "Deleting: ";
-      command->display();
       delete command;
     }
     pair.second.clear();
@@ -132,9 +128,23 @@ void Store::borrowMovie(int customerID, Movie *movie, Command *command) {
 }
 
 // Handles the return of a movie by a customer.
-void Store::returnMovie(int customerID, Movie *movie, Command *command) {
-  movies.returnMovie(movie);
-  transactions[customers[customerID]].push_back(command);
+void Store::returnMovie(int customerID, Movie *movie, Return *command) {
+  auto it = transactions.find(customers[customerID]);
+  if (it != transactions.end()) {
+    vector<Command *> &customerTransactions = it->second;
+    for (Command *cmd : customerTransactions) {
+      if (cmd->typeGetter() == 'B') {
+        Borrow *borrowCommand = dynamic_cast<Borrow *>(cmd);
+        if (borrowCommand->getData() == command->getData()) {
+          movies.returnMovie(movie);
+          transactions[customers[customerID]].push_back(command);
+          return;
+        }
+      }
+    }
+  }
+  cerr << "Customer " << customerID << " has not borrowed the movie." << endl;
+  delete command;
 }
 
 // Returns a reference to the store's movie inventory.

@@ -21,7 +21,7 @@ public:
   // Constructor for histroy object
   History(int customerID, const char &mediaType, const char &movieType,
           string data)
-      : Command('B'), customerID(customerID), mediaType(mediaType),
+      : Command('H'), customerID(customerID), mediaType(mediaType),
         movieType(movieType), data(data) {}
 
   // Prints customers transaction history

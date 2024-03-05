@@ -29,6 +29,9 @@ public:
 
   // Displays the data associated with the Return command.
   void display() const override;
+
+  // Getter for data
+  string getData();
 };
 
 /**
